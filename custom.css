@@ -12,3 +12,17 @@
 .carousel-caption{
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
+
+#header-images {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  #header-images {
+      align-items: center;
+      max-width: 50%;
+  }
+}
